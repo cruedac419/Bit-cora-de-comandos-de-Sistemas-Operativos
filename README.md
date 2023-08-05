@@ -39,11 +39,10 @@
 | Ir a directorio home                     | `cd home` o `ls -CD`                      | cd home                       |
 | Cambiar contraseña de usuario            | `sudo passwd (usuario)`                    | `sudo passwd cruedac419`                                  |
 | Ver imágenes instaladas                   | `docker images`                           |                                                                                                          |
-| Ejecutar nuevo contenedor usando imagen  | `docker run ubuntu`                       |                                                                                                          |
-                                                                                                    |
+| Ejecutar nuevo contenedor usando imagen  | `docker run ubuntu`                       |                                                                                                                                                                          
 | Actualizar                               | `sudo apt update`                          | `sudo apt update` (actualiza y descarga los repositorios del SO)                                        |
 | Descargar imagen de contenedor            | `docker pull ubuntu`                      |                                                                                                        
 | Crear archivo                            | `nano (nombre+extension)`                  | `nano s05.sh`  |
 | Ver el estado de los contenedores        | `sudo docker ps -a`                       |                                                                                                          |
 | Eliminar todos los contenedores detenidos | `sudo docker rm $(sudo docker ps -a -f status=exited -q)` |                                                                                                          |
-| Ver estado de contenedores                | `sudo docker ps -a`                       |                                                                                                          |
+| Ver estado de contenedores                | `sudo docker ps -a`                       |                                                                                                          
